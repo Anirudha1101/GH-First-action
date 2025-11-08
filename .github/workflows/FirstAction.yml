@@ -7,4 +7,4 @@ jobs:
       - name: Print Hello World
         run: echo "HELLO WORLD"
       - name: Create file 
-        run: touch Anirudha.txt;
+        run: echo "Hello Anirudha file created"  > Anirudha.txt
