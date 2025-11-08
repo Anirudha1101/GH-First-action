@@ -5,6 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Hello World
-        run: echo "HELLO WORLD"
+        run: |    #if we want to run multiple commands in one run 
+           echo "HELLO WORLD"
+           echo "I am learning git hub actions"
       - name: Create file 
         run: echo "Hello Anirudha file created"  > Anirudha.txt
